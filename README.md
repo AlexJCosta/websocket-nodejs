@@ -10,7 +10,7 @@ Para instalar e usar este projeto é necessário ter o nodeJS (https://nodejs.or
 
 ### Initial Configuration
 
-1. Clone the repository (https://github.com/AlexJCosta/todo-list-be);
+1. Clone the repository (https://github.com/AlexJCosta/websocket-nodejs);
 2. Install the project dependencies with `npm install`;
 3. Run the server with `npm run server`.
 4. Edit the `/core/config.js` file and add your database credentials.
