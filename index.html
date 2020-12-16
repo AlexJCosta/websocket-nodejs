@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>            
+  </head>
+  <body>
+    <ul id="myList"></ul>    
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+
+        socket.on('hello', (counter) => {
+            var node = document.createElement("li");
+            var textnode = document.createTextNode(`Notification [ ${counter} ]`); 
+            node.appendChild(textnode);
+            document.getElementById("myList").appendChild(node);
+        });
+    </script>
+</html>
